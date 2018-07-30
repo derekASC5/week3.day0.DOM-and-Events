@@ -1,10 +1,10 @@
-function OnClick() {
-    document.getElementById("rengar").src = "assets/rengar.png";
-    
+function myFunction() {
+    document.getElementById('rengar').src="assets/rengar.png";
 }
 
-document.getElementById("rengar").onclick = function OnClick() {
-    alert("You\'ve been deleted");
+function onClick() {
+    document.getElementsByClassName("main_container").addEventListener("click", myFunction)
 }
 
-OnClick();
+onClick();
+
